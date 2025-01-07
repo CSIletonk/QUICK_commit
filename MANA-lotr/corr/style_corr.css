@@ -1,0 +1,76 @@
+body {
+    background-image: linear-gradient(rgba(57, 13, 10, 0.6), rgba(57, 13, 10, 0.6)), url(https://images.ctfassets.net/s5n2t79q9icq/1RJfBURhOuSJba5feByRzk/f8352755ec2b3a015dd82568d74dba4c/Hsnfvfty23lnf0-1920x1040.jpg);
+}
+
+*{
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 55px;
+    display: inline-flex; /* display: flex; suffit */
+    padding-left: 5%;
+
+}
+
+/* #ImageLogo {
+    width: 130px;
+} */
+
+header img {
+    width: 130px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ea3601 ;
+}
+
+
+main {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center; /* Pour pas qu'il soit zoomé */
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+}
+
+.card-img {
+    height: 320px;
+    border-radius: 10px;
+}
+
+.card p {
+    color : antiquewhite;
+    font-weight: 500;
+}
+

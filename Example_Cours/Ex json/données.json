@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Astérix",
+        "job": "Gaulois",
+        "Créateur": "Goscinny & Uderzo",
+    },
+    {
+        "name": "Tintin",
+        "job": "Reporter",
+        "Créateur": "Hergé",
+    },
+    {
+        "name": "Mickey",
+        "job": "Souris",
+        "Créateur": "Walt Disney",
+    },
+    {
+        "name": "Batman",
+        "job": "Justicier",
+        "Créateur": "Bob Kane",
+    }
+]
